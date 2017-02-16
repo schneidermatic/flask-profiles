@@ -1,0 +1,6 @@
+
+CWD=$(pwd)
+
+activate() {
+. $CWD/env/bin/activate
+}
