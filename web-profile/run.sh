@@ -16,7 +16,7 @@
 #******************************************************************************/
 
 CWD=$(pwd)
-FLASK_APP=./flask-app
+FLASK_APP=$CWD/web
 VENV=$CWD/env
 
 find $CWD -name '*.pyc' -delete

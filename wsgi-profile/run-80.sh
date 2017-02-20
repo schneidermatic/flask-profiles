@@ -16,7 +16,7 @@
 #******************************************************************************/
 
 CWD=$(pwd)
-FLASK_APP=$CWD/flask-app
+FLASK_APP=$CWD/web
 VENV=$CWD/env
 
 . $VENV/bin/activate
