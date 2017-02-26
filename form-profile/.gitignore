@@ -1,4 +1,5 @@
 env
 .project
 .pydevproject
-./**/*.pyc
+web/*.pyc
+web/views/*.pyc
