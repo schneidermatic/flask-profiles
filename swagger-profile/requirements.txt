@@ -1,0 +1,7 @@
+flask
+sqlalchemy
+flask-sqlalchemy
+psycopg2
+flask-restless
+ipython
+flasgger
