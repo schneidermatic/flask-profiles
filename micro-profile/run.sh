@@ -17,7 +17,7 @@
 
 CWD=$(pwd)
 FLASK_APP=$CWD/web
-VENV=$CWD/env
+VENV=$CWD/venv
 
 find $CWD -name '*.pyc' -delete
 source $VENV/bin/activate

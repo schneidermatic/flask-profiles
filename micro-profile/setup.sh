@@ -18,11 +18,11 @@
 CWD=$(pwd)
 cd $CWD
 
-if [ -e ./env ]; then
-  rm -rf ./env
+if [ -e ./venv ]; then
+  rm -rf ./venv
 fi
 
-virtualenv ./env
-. ./env/bin/activate
+virtualenv ./venv
+. ./venv/bin/activate
 
 pip install -r ./requirements.txt
