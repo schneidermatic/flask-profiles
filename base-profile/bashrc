@@ -2,5 +2,5 @@
 CWD=$(pwd)
 
 activate() {
-. $CWD/env/bin/activate
+. $CWD/venv/bin/activate
 }

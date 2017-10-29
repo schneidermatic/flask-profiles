@@ -3,4 +3,5 @@ sqlalchemy
 flask-sqlalchemy
 psycopg2
 flask-restless
+flask-script
 ipython
